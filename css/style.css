@@ -1,0 +1,24 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+
+.header-phone:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background: url(../img/phone.png) no-repeat;
+}
+
+.header-mail:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 24px;
+  height: 24px;
+  background: url(../img/mail.png) no-repeat;
+}/*# sourceMappingURL=style..css.map */

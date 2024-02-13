@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style..css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    '2xl': '1440px',
+                },
+                container: {
+                    center: true,
+                },
+
+                extend: {
+                    fontSize: {
+                        12: '12px',
+                        14: '14px',
+                        16: '16px',
+                        24: '24px',
+                    },
+                    colors: {
+                        'white': '#ffffff',
+                        'one-txt-color': '#252B42',
+                        'two-txt-color': '#737373',
+                        'three-txt-color': '#23856D',
+                        'four': '#23A6F0',
+                        'lightGray': '#FAFAFA',
+                        'Gray': '#bdbdbd',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="bg-[#23856D]">
+            <div class="container">
+                <div class="flex justify-between items-center px-[197px] py-[20px] top-header">
+                    <a href="tel:" class="relative pl-[30px] text-12 text-white header-phone">(225) 555-0118</a>
+                    <a href="mailto:"
+                        class="relative pl-[30px] text-12 text-white header-mail">michelle.rivera@example.com</a>
+                    <span class="text-14 text-white">Follow Us and get a chance to win 80% off</span>
+                    <div class="flex items-center gap-[10px]">
+                        <p class="text-14 text-white">Follow Us:</p>
+                        <img src="./img/insta (1).png" alt="instagram">
+                        <img src="./img/youtube.png" alt="youtube">
+                        <img src="./img/fb.png" alt="facebook">
+                        <img src="./img/tw.png" alt="twitter">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="flex justify-between items-center px-[200px] py-[23px]">
+                <div class="header-logo">
+                    <a href="/">
+                        <img src="./img/bandage.png" alt="logo">
+                    </a>
+                </div>
+                <div class="flex justify-between items-center gap-[13px]">
+                    <a class="text-two-txt-color font-bold" href="">Home</a>
+                    <a class="pr-[20px] relative after:absolute after:content-[''] after:right-[0px] after:top-[9px] after:w-[14px] after:h-[8px] after:bg-[url(../img/arr-b.png)]"
+                        href="">
+                        Shop
+                    </a>
+                    <a class="text-two-txt-color font-bold" href="">About</a>
+                    <a class="text-two-txt-color font-bold" href="">Blog</a>
+                    <a class="text-two-txt-color font-bold" href="">Contact</a>
+                    <a class="text-two-txt-color font-bold" href="">Pages</a>
+                </div>
+                <div class="flex justify-between items-center gap-[20px]">
+                    <a class="text-14 font-bold text-four pl-[22px] relative before:absolute before:content-[''] before:w-[12px] before:h-[12px] before:left-0 before:top-[3px] before:bg-[url(../img/log.png)]"
+                        href="">Login / Register</a>
+                    <img src="./img/zoom.png" alt="zoom">
+                    <img src="./img/trash.png" alt="trash">
+                    <img src="./img/heard.png" alt="heard">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bg-lightGray">
+        <div class="container">
+            <div class="pt-[30px] pb-[48px]">
+                <div class="flex justify-between items-center gap-[20px] px-[200px] mb-[30px]">
+
+                    <h2 class="text-24 font-bold">Shop</h2>
+                    <div class="flex justify-between items-center">
+                        <p
+                            class="text-14 font-bold pr-[50px] relative after:absolute after:content-[''] after:w-[9px] after:h-[16px] after:right-[20px] after:top-[2px] after:bg-[url(../img/ar-l.png)] bg-no-repeat">
+                            Home
+                        </p>
+                        <p class="text-14 font-bold text-Gray">Shop</p>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center gap-[15px] px-[176px]">
+                    <a class="inline-block relative" href="">
+                        <img src="./img/cart-1.jpeg" alt="">
+                        <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+                            <p class="text-center font-bold text-16 text-white mb-[10px]">cloths</p>
+                            <p class="text-14 text-white">5 items</p>
+                        </div>
+                    </a>
+                    <a class="inline-block relative" href="">
+                        <img src="./img/cart-2.jpeg" alt="">
+                        <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+                            <p class="text-center font-bold text-16 text-white mb-[10px]">cloths</p>
+                            <p class="text-14 text-white">5 items</p>
+                        </div>
+                    </a>
+                    <a class="inline-block relative" href="">
+                        <img src="./img/cart-3.jpeg" alt="">
+                        <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+                            <p class="text-center font-bold text-16 text-white mb-[10px]">cloths</p>
+                            <p class="text-14 text-white">5 items</p>
+                        </div>
+                    </a>
+                    <a class="inline-block relative" href="">
+                        <img src="./img/cart-4.jpeg" alt="">
+                        <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+                            <p class="text-center font-bold text-16 text-white mb-[10px]">cloths</p>
+                            <p class="text-14 text-white">5 items</p>
+                        </div>
+                    </a>
+                    <a class="inline-block relative" href="">
+                        <img src="./img/cart-5.jpeg" alt="">
+                        <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+                            <p class="text-center font-bold text-16 text-white mb-[10px]">cloths</p>
+                            <p class="text-14 text-white">5 items</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="flex justify-between items-center px-[200px] py-[24px]">
+                <p class="text-14 font-bold text-two-txt-color">Showing all 12 results</p>
+                <div class="flex justify-between items-center w-[177px]">
+                    <p class="font-bold text-14 text-two-txt-color">Views:</p>
+                    <button type="button" class="w-[46px] h-[46px] bg-[url(../img/btn-sm-1.png)]"></button>
+                    <button type="button" class="w-[46px] h-[46px] bg-[url(../img/btn-sm-2.png)]"></button>
+                </div>
+                <div class="flex items-center gap-[10px]">
+                    <button type="button"
+                        class="py-[11px] pl-[18px] pr-[49px] rounded font-bold text-two-txt-color text-14 bg-[#F9F9F9] relative after:absolute after:content-[''] after:top-[18px] after:right-[20px] after:w-[14px] after:h-[8px] after:bg-[url(../img/arr-b.png)] after:bg-no-repeat">Popularity</button>
+                    <button type="button"
+                        class="bg-[#23A6F0] rounded px-[27px] py-[10px] text-white font-bold">Filter</button>
+                </div>
+            </div>
+            <div class="flex justify-between gap-x-[25px] gap-y-[48px] px-[200px] py-[48px] flex-wrap">
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-1.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-2.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-3.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-4.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-5.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-6.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-7.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-8.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-9.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-10.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-11.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="./img/f-12.png" alt="photo">
+                    <div class="text-center">
+                        <p class="mt-[24px] text-16 font-bold">Graphic Design</p>
+                        <p class="mt-[10px] mb-[15px] text-14 font-bold text-two-txt-color">English Department</p>
+                        <span class="mr-[15px] text-Gray font-bold">$16.48</span>
+                        <span class="text-three-txt-color font-bold">$6.48</span>
+                        <div class="flex justify-center gap-[10px] mt-[10px]">
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23A6F0]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#E77C40]"></button>
+                            <button class="block rounded-full w-[20px] h-[20px] bg-[#23856D]"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center py-[25px] mt-[35px] mb-[48px]">
+                <a href=""
+                    class="mr-[-6px] font-bold text-14 text-Gray rounded-l-[7px] border-2 bg-[#f3f3f3] p-[25px]">First</a>
+                <a href=""
+                    class="mr-[-6px] font-bold text-14 border-2 border-[#e9e9e9] bg-white text-four py-[25px] px-[20px]">1</a>
+                <a href=""
+                    class="mr-[-6px] border-2 font-bold text-14 border-[#e9e9e9] border-y-2 border-four bg-four text-white py-[25px] px-[20px]">2</a>
+                <a href=""
+                    class="mr-[-6px] font-bold text-14 border-2 border-[#e9e9e9] bg-white text-four py-[25px] px-[20px]">3</a>
+                <a href=""
+                    class="mr-[-6px] font-bold text-14 rounded-r-[7px] border-2 bg-white text-four p-[25px]">Next</a>
+            </div>
+        </div>
+        <div class="bg-lightGray">
+            <div class="container">
+                <div class="flex justify-between items-center px-[200px] py-[50px]">
+                    <img src="./img/sp-1.png" alt="sponsor logo">
+                    <img src="./img/sp-2.png" alt="sponsor logo">
+                    <img src="./img/sp-3.png" alt="sponsor logo">
+                    <img src="./img/sp-4.png" alt="sponsor logo">
+                    <img src="./img/sp-5.png" alt="sponsor logo">
+                    <img src="./img/sp-6.png" alt="sponsor logo">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="flex justify-between items-center px-[200px] py-[57px] border-b-2 border-[#e6e6e6]">
+                <div class="header-logo">
+                    <a href="/">
+                        <img src="./img/bandage.png" alt="logo">
+                    </a>
+                </div>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./img/fb-c.png" alt="facebook">
+                    <img src="./img/insta-c.png" alt="instagram">
+                    <img src="./img/tw-c.png" alt="twitter">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="flex justify-between py-[50px] px-[200px]">
+                <div class="">
+                    <p class="mb-[20px] font-bold">Company Info</p>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">About Us</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Carrier</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">We are hiring</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Blog</a>
+                </div>
+                <div class="">
+                    <p class="mb-[20px] font-bold">Legal</p>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">About Us</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Carrier</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">We are hiring</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Blog</a>
+                </div>
+                <div class="">
+                    <p class="mb-[20px] font-bold">Features</p>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Business Marketing</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">User Analytic</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Live Chat</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Unlimited Support</a>
+                </div>
+                <div class="">
+                    <p class="mb-[20px] font-bold">Resources</p>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">IOS & Android</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Watch a Demo</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">Customers</a>
+                    <a href="" class="block font-bold text-14 text-two-txt-color mb-[10px]">API</a>
+                </div>
+                <div class="">
+                    <p class="mb-[20px] font-bold">Get In Touch</p>
+                    <form action="">
+                        <input class="rounded-l-[3px] bg-[#F9F9F9] pl-[25px] py-[15px]" type="text"
+                            placeholder="Your Email">
+                        <input class="rounded-r-[3px] ml-[-3px] bg-four px-[22px] py-[15px] text-white" type="button"
+                            value="Subscribe">
+                        <p class="text-12 text-two-txt-color my-[10px]">Lore imp sum dolor Amit</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#FAFAFA]">
+            <div class="container">
+                <p class="pl-[200px] py-[25px] font-bold text-14 text-two-txt-color">Made With Love By Finland All Right
+                    Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
